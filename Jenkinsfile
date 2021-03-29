@@ -43,10 +43,10 @@ pipeline {
   }
   post {
     always {
-      // Sempre que passar
+      
     }
     success {
-      // Somente se o build passar
+      
     }
   }  
 }  
