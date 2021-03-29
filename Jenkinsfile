@@ -3,7 +3,7 @@ pipeline {
   parameters {
     string(name: 'VERSION', defaultValue: '', description: 'version to deploy on prod')
     choice(name: 'VERSION',choices: ['1.1.10', '1.1.20', '1.1.30'], description: '')
-    booleanParam(name: 'executeTests', defaultValue: true, description: '')
+    booleanParam(name: 'executeTests', defaultValue: true, description: 'Parametro Booleano')
   }
   environment {
     NEW_VERSION = '1.10'
